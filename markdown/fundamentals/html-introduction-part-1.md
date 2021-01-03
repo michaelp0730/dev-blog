@@ -1,4 +1,5 @@
 # HTML Introduction - Part 1
+### Learn the basics of HTML, including tag types, tag attributes, and their display properties
 _Dec 30, 2020_
 
 Hypertext Markup Language, also known as HTML, can be thought of as the foundational building block of web development. When you inspect the source code for an element on the page, you're going to see the HTML markup for that element. Before we get into specific details related to HTML, I want to start by giving you a conceptual overview. I won't go into the history of HTML because it's not relevant for our purposes in learning how to use it, but if you're interested there's plenty of information available online.

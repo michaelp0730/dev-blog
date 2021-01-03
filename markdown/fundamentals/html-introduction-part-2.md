@@ -1,4 +1,5 @@
 # HTML Introduction - Part 2
+### Creating HTML documents
 _Jan 2, 2021_
 
 Welcome to part 2 of my HTML introduction! In the last article we learned about HTML tags, their display properties, and how attributes can be added to them. In this article we will take things a step further by creating entire HTML documents and viewing them in a browser. You're going to need to fire up your favorite text editor for this lesson, so go ahead and do that now, or if you're not familiar with text editors, please check out the first article in my Web Development Fundaments series called "Web Development Tools".
