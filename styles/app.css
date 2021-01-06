@@ -1,19 +1,94 @@
 *,
 *::before,
 *::after{box-sizing:border-box;}
-a{text-decoration:none; color:inherit; cursor:pointer;}
 button{background-color:transparent; color:inherit; border-width:0; padding:0; cursor:pointer;}
 figure{margin:0;}
 input::-moz-focus-inner {border:0; padding:0; margin:0;}
-ul, ol, dd{margin:0; padding:0; list-style:none;}
-h1, h2, h3, h4, h5, h6{margin:0; font-size:inherit; font-weight:inherit;}
-p{margin:0;}
 cite {font-style:normal;}
 fieldset{border-width:0; padding:0; margin:0;}
 
 body {
+    background-color: white;
+    color: #212529;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: medium;
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #002855;
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-weight: 500;
+}
+h1 { font-size: xxx-large; }
+h2 { font-size: xx-large; }
+h3 { font-size: x-large; }
+h4 { font-size: large; }
+h5 { font-size: medium; }
+h6 { font-size: small; }
+
+p {
+    line-height: 1.5em;
+    margin: 0 0 1.5em;
+}
+
+a {
+    color: #0466C8;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:visited { color: #002855; }
+a:hover { color: #0353A4; }
+
+ul, ol {
+    margin: 0 0 20px;
+    padding: 0 0 0 40px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+pre {
+    background-color: #F8F9FA;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    color: black;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    margin: 0;
+    max-height: 400px;
+    max-width: 100%;
+    overflow: auto;
+    padding: 20px;
+    tab-size: 4;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.wrapper {
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Talet Styles */
+    .wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    /* Large Screen Styles */
+    .wrapper {
+        margin: 0 auto;
+        padding: 0;
+        width: 900px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* X-Large Styles */
+    .wrapper {
+        width: 1200px;
+    }
 }
