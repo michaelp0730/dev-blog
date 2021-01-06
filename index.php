@@ -21,13 +21,10 @@
             <li>Third list item</li>
         </ul>
         <p>Ut sit amet feugiat erat. Aliquam erat volutpat. Maecenas porttitor risus velit, sed volutpat neque tristique eu. Cras luctus turpis tortor, nec congue elit vestibulum sit amet. Praesent vitae varius sapien. Cras pellentesque, ipsum sit amet consectetur sagittis, ex lacus tempor ante, ut fringilla sapien ipsum et dui. Vivamus aliquam, tortor sed sodales mattis, eros ligula volutpat ante, at faucibus libero ex eu ligula. Maecenas fringilla elit sit amet enim eleifend tempus.</p>
-        <pre>
-            <xmp>
-<section>
-    <h2>Heading for the section</h2>
-    <p>Curabitur vel <a href="https://google.com">erat vitae</a> ligula blandit finibus id ac justo. Proin id luctus dui. In mattis lorem at risus egestas porta. Maecenas porttitor laoreet orci vitae convallis.</p>
-</section></xmp>
-        </pre>
+        <pre><code>&lt;section&gt;
+  &lt;h2&gt;Heading for the section&lt;/h2&gt;
+  &lt;p&gt;Curabitur vel &lt;a href="https://google.com"&gt;erat vitae&lt;/a&gt; ligula blandit finibus id ac justo. Proin id luctus dui. In mattis lorem at risus egestas porta. Maecenas porttitor laoreet orci vitae convallis.&lt;/p&gt;
+&lt;/section&gt;</code></pre>
     </div>
 </body>
 </html>
