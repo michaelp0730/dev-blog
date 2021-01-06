@@ -75,13 +75,13 @@ While most tags consist of an opening tag and a closing tag, there are some tags
 <img src="/path/to/image.png" />
 ```
 
-Notice the slash at the end, right before the angle bracket? That's an easy way to tell that this is a self-closing tag. There are some versions of HTML which allow you to write a self-closing tag without the slash, like this:
+Notice the slash at the end, right before the angle bracket? That's an easy way to tell that this is a self-closing tag. As of the release of HTML5 it is no longer necessary to end self-closing tags with a slash, so you _can_ write them like this:
 
 ```
 <img src="/path/to/image.png">
 ```
 
-I personally prefer including the slash because it means my HTML is written with valid XML syntax, but it's not a strict requirement, assuming you're writing HTML5.
+However, I personally prefer including the slash because it means my HTML is written with valid XML syntax, and it makes it obvious that I'm acknowledging a tag as being a self-closing tag. In the end it's up to you to decide how you write them, unless you're part of a team who has a convention for these types of tags. As usual, consistency is key.
 
 ### Tag Attributes
 If we look at the image example from the self-closing tags you'll notice that it included `src="/path/to/image.png"` within the tag. The `src` part is known as an _attribute_, and `="/path/to/image.png"` is the value of that attribute. Attributes can be written on any HTML tag, not just the self-closing ones, but not all attributes are valid on all tags. For example, `src` is a valid attribute on an `<img />` tag because it specifies the location of the image you want to display, but `src` would not be a valid attribute on a `<p>` tag. Frequently tags will contain multiple attributes, like this:
