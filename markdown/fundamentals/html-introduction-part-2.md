@@ -38,6 +38,10 @@ You should make it a habit of declaring a doctype on the first line of your HTML
 
 Obviously no one would ever remember those, so you would always have to copy it from somewhere and paste it into your file. Well, those days are behind us now that we have HTML5. An HTML5 doctype is much cleaner and simpler, making it easy to remember. In my example I wrote it all using uppercase letters, but it's also valid to write it using lowercase letters. Just make sure to include it because it tells the browser to treat this as an HTML5 document.
 
+```
+<!DOCTYPE HTML>
+```
+
 ### The HTML tag
 The `<html>` tag should always directly follow your doctype declaration. It's just like any other tag in terms of it's syntax, and notice that it has a closing `</html>` tag at the end of the file. Everything in your document, except the doctype declaration, should be nested within the `<html>` tag, and you should never have more than one `<html>` tag in the file.
 
